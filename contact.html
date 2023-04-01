@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/icon2.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i
+            class="fa-sharp fa-solid fa-circle-xmark"
+            id="fa"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="index.html">HOME </a></li>
+            <li><a href="about.html">ABOUT </a></li>
+            <li><a href="course.html">COURSE </a></li>
+            <li><a href="blog.html">BLOG </a></li>
+            <li><a href="#">CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" id="fa" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contac Us</h1>
+    </section>
+
+    <!-- ----------contact us------------ -->
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15260.713885367095!2d81.78552900000003!
+      3d17.014913700000008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a3f0babe09c1%3A0x559ba63cdfbebca4!2sGovernment%20
+      College%20Autonomous%20Rajahmundry!5e0!3m2!1sen!2sin!4v1680369907569!5m2!1sen!2sin" width="600" height="450" style="border:0;"
+       allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+              <h4>X-CROSS ROAD NEW LINE</h4>
+              <p>DELHI,INDIA</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+              <h4>+9100077755</h4>
+              <p>CONTACT US WITH THIS NUMBER</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+              <h4>info@education.com</h4>
+              <p>MAIL US THROUGH THIS MAIL</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+           <form action="">
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+            <input type="text" placeholder="Enter Your Subject">
+            <textarea  rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="btn btnn">Send A Message</button>
+           </form>
+
+
+
+        </div>
+      </div>
+    </section>
+<!-- -----------footer-------------- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Exercitationem, dolorum amet perspiciatis suscipit molestias, <br />
+        nihil deserunt cum distinctio odit similique fuga cumque. Aspernatur,
+        praesentium minus!
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+
+    <!-- ------- scripte------- -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+        function hideMenu() {
+          navLinks.style.right = "-200px";
+        }
+      </script>
+
+
+  </body>
+</html>

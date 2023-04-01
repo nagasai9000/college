@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- -----header-------- -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/icon2.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i
+            class="fa-sharp fa-solid fa-circle-xmark"
+            id="fa"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="index.html">HOME </a></li>
+            <li><a href="about.html">ABOUT </a></li>
+            <li><a href="course.html">COURSE </a></li>
+            <li><a href="#">BLOG </a></li>
+            <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" id="fa" onclick="showMenu()"></i>
+      </nav>
+      <h1>Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!-- ---------blog page content---------- -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" />
+          <h2>Certificate & Online Programs For 2021</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+            molestias ex, quos aliquid beatae aut libero repudiandae consequatur
+            eaque fuga ad exercitationem tenetur blanditiis! Quam placeat
+            aliquam sequi tempore. Quisquam.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+            tempora similique, enim quibusdam suscipit ex reprehenderit vel
+            doloremque nobis eaque maxime, itaque placeat fugit rem fuga
+            eligendi officiis voluptatibus ipsum. Debitis hic molestiae itaque
+            deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ut doloremque asperiores aspernatur suscipit quos molestiae, cum,
+            recusandae temporibus debitis numquam reiciendis officia voluptas,
+            ducimus at rerum impedit consequatur minus quis esse sed iusto
+            consequuntur optio?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            dolorum quidem beatae nemo rem iure atque totam. Veniam alias
+            officia laborum quaerat in odio maxime fuga consequatur autem?
+            Tenetur vel optio pariatur! Totam ad dolores unde quae sapiente
+            perspiciatis quas? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Possimus sequi, accusamus sunt perferendis vero
+            cumque dolore, in reprehenderit, ipsa voluptates dicta assumenda.
+            Unde recusandae veritatis rerum cupiditate ratione veniam
+            reprehenderit.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            assumenda deleniti accusantium reprehenderit saepe officiis
+            voluptatem in, ea ad nihil deserunt rem dolor magnam blanditiis?
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a Comment </h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter name">
+              <input type="email" placeholder="Enter Your Email" required>
+              <textarea  rows="5" placeholder="Yuor Comment"></textarea>
+              <button class="btn btnn">Leave A Comment</button>
+            </form>
+          </div>
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Bussiness Analyt</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>32</span>
+          </div>
+          <div>
+            <span>Mechine Learning</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>24</span>
+          </div>
+          <div>
+            <span>Bsc</span>
+            <span>30</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>24</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------footer----- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Exercitationem, dolorum amet perspiciatis suscipit molestias, <br />
+        nihil deserunt cum distinctio odit similique fuga cumque. Aspernatur,
+        praesentium minus!
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+    <!-- ---------JavaScripte for the tiggle menu--------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
