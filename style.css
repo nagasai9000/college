@@ -17,12 +17,8 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav img{
-    /* width: 150px; */
-    width: 130%;
-    height: 130px;
-    border-radius: 50%;
-    background: transparent;
+.header nav img{
+    width: 80%;
 
 }
 .nav-links{
@@ -95,6 +91,10 @@ nav img{
     .nav-links ul li{
         display: block;
     }
+    .header nav img{
+        width: 50%;
+        margin-top: 20px;
+    }
     .nav-links{
         position: fixed;
         background: #f44336;
@@ -157,6 +157,9 @@ h3{
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2) ;
+}
+.facilities-col #img{
+    height: 53%;
 }
 
 /* -----course we offer---- */
@@ -287,7 +290,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-image: linear-gradient(rgba(71, 71, 71, 0.7),rgba(0,0,0,0.7)),url(images/forigers.jpg);
     background-position:center ;
     background-size: cover;
     border-radius: 10px;
@@ -312,6 +315,10 @@ h3{
     width: 100%;
     text-align: center;
     padding: 25px 0px;
+}
+.footer p{
+    width: 70%;
+    margin: auto;
 }
 .footer h4{
     margin-bottom: 25px;
@@ -339,17 +346,14 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/clg\ back\ ground.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
 }
 .sub-header nav img{
-    width: 130%;
-    height: 130px;
-    border-radius: 50%;
-    background: transparent;
+    width: 80%;
 }
 .sub-header h1{
     margin-bottom: 30px;
@@ -450,15 +454,19 @@ h3{
 @media(max-width :700px){
     .sub-header h1{
         font-size: 24px;
+        margin-top: 20%;
     }
     .blog-left h2{
         font-size: 20px;
     }
     .sub-header nav img{
-        width:50%;
-        height:500px;
-        border-radius: 50%;
-        background: transparent;
+        width: 50%;
+        margin-right: 200px;
+        margin-top: 20px;
+    }
+    .about-col h1{
+        font-size: 24px;
+        margin-bottom: 50px;
     }
 } 
 /* ----------contuct us---------- */
@@ -476,6 +484,7 @@ h3{
     margin: auto;
 }
 .contact-col{
+    /* border: 1px solid #999; */
     flex-basis: 60%;
     margin-bottom: 30px;
 
